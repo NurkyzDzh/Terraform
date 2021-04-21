@@ -90,7 +90,6 @@ resource "aws_eip" "one" {
   ami                  = "ami-09558250a3419e7d0"
   instance_type        = "t2.micro"
   availability_zone    = "us-east-2a"
-  key_name             = "terraform-key"
   network_interface {
     device_index          = 0
     network_interface_id  = aws_network_interface.terraform_webserver.id
