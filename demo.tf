@@ -125,7 +125,7 @@ resource "aws_eip" "one" {
 #9. Create Linux Server and install/enable httpd
 
   resource "aws_instance" "terraform_instance" {
-  ami                  = "ami-09558250a3419e7d0"
+  ami                  = "ami-0f70efd3bf75c5221"
   instance_type        = "t2.micro"
   availability_zone    = "us-east-2a"
       
